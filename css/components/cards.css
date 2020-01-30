@@ -1,0 +1,42 @@
+.card-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.cards-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  box-shadow: 0 0 5px rgb(230,230,230);
+  width: 200px;
+  height: 250px;
+  margin: 10px;
+  background-color: white;
+}
+
+.cards * {
+  margin: 0px 0px 10px 0px;
+}
+
+.cards img {
+  width: 200px;
+  object-fit: cover;
+}
+
+.cards p {
+  text-align: center;
+  padding: 0px 5px 0px 5px;
+}
+

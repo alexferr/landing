@@ -1,0 +1,41 @@
+.banner {
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(https://images.unsplash.com/photo-1511407401960-0ee203836665?ixlib=rb-1.2.1&auto=format&fit=crop&w=1567&q=80);
+  background-size: cover;
+  height: 600px;
+  /*object-fit: cover;*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.banner-container {
+  margin: 0px 20px;
+  flex-grow: 1;
+}
+
+.banner-container * {
+  margin: 0px;
+}
+
+.banner-container h1{
+  font-size: 32px;
+  color: white;
+}
+
+.banner-container p{
+  color: white;
+}
+
+.banner-container a {
+  display: ;
+  border: solid 2px;
+  border-color: white;
+  background-color: rgba(0,0,0,0.5);
+  padding: 25px 35px;
+  color: white;
+  font-weight: 900;
+  position: absolute;
+  bottom: 20px;
+}
